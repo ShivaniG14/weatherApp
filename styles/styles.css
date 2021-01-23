@@ -14,7 +14,7 @@ h5{
 .bs-container{
     margin: 50px ;    
 }
-
+  
 
 .input-group-append{
     margin-top: 40px;
@@ -49,18 +49,20 @@ input[type="text"]{
     color: black;
 }
 
-/* 
-input[type="submit"]{
-    padding: 10px;
-    font-size: 18px;
-    background-color: orange;
+@media screen and (max-width: 600px) {
+    .bs-container{
+        margin: 30px ;    
+    }
+    input[type="text"]{
+        padding: 10px;
+        font-size: 18px;
+        width: 250px;
+        margin-top: 40px;
+    }
 
-} */
-/* 
-.container{
-    height: 350px;
-    width: 400px;
-    background-color: white;
-    margin: 60px auto;
-    text-align: center;
-} */
+    .card{
+        margin: 40px auto;
+        width: 280px;
+    }
+    
+  }
