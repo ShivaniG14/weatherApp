@@ -56,13 +56,13 @@ input[type="text"]{
     input[type="text"]{
         padding: 10px;
         font-size: 18px;
-        width: 240px;
+        width: 250px;
         margin-top: 40px;
     }
 
     .card{
-        margin: 30px auto;
-        width: 280px;
+        margin: 50px auto;
+        width: 220px;
     }
     
   }
