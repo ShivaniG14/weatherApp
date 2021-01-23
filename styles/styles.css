@@ -1,0 +1,66 @@
+body{
+    /* background-color: grey !important; */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/931/388/951/miui-8-weather-background-minimal-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h5{
+    color: black;
+    text-align: center;
+}
+
+.bs-container{
+    margin: 50px ;    
+}
+
+
+.input-group-append{
+    margin-top: 40px;
+    /* height:max-content; */
+}
+
+.card{
+    margin: 40px auto;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(71, 71, 69, 0.945), 0 0 6px rgba(71, 71, 69, 0.945);
+    /* border: 1px solid black !important; */
+    border-radius: 20px !important; 
+}
+
+.input{
+    text-align: center;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+#btn{
+    background-color: black !important;
+}
+
+#btn:hover{
+    background-color: white !important;
+    color: black;
+}
+
+/* 
+input[type="submit"]{
+    padding: 10px;
+    font-size: 18px;
+    background-color: orange;
+
+} */
+/* 
+.container{
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    margin: 60px auto;
+    text-align: center;
+} */
